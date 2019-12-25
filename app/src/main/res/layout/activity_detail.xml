@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackgroundDefault"
+        tools:context=".userList.view.DetailActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/colorTxtSelected"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        tools:text="Version 1.2.0"/>
+
+    <TextView
+        android:id="@+id/tv_Details"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_version"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/list_selector"
+        android:drawableTint="@color/colorTxtUnSelected"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Details"
+        android:textSize="14sp"
+        tools:text="Details Details Details Details Details Details " />
+
+
+</RelativeLayout>
