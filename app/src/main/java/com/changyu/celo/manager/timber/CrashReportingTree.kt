@@ -1,8 +1,8 @@
 package com.changyu.celo.manager.timber
 
-import android.support.annotation.Nullable
 import android.util.Log
 import android.util.Log.INFO
+import androidx.annotation.Nullable
 import timber.log.Timber
 
 class CrashReportingTree : Timber.Tree() {

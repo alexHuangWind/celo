@@ -1,8 +1,9 @@
 package com.changyu.celo.service.converter;
 
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
+
+import androidx.annotation.NonNull;
 
 import com.changyu.celo.service.entity.HttpErrorResponseEntity;
 import com.changyu.celo.service.entity.HttpResultEntity;

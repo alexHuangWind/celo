@@ -2,7 +2,7 @@ package com.changyu.celo
 
 import android.app.Application
 import android.content.Context
-import android.support.multidex.MultiDex
+import androidx.multidex.MultiDex
 import com.changyu.celo.manager.timber.CrashReportingTree
 import com.changyu.celo.service.ServiceFactory
 
@@ -12,10 +12,10 @@ import java.lang.ref.WeakReference
 
 
 /**
- * ClassName:   App
+ * ClassName:   KotlinApplication
  *
- * Author:      leeeyou
- * Date:        2018/2/24 14:27
+ * Author:      Changyu
+ * Date:        2019/12/25 14:27
  */
 class KotlinApplication : Application() {
     override fun onCreate() {
